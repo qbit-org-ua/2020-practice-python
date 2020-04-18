@@ -3,7 +3,7 @@
 # * Тесля Юля
 # * Момот Олег
 
-line = input()
+line = input().strip()
 digits = sorted(line)
 for index, digit in enumerate(digits):
     if digit != "0":
